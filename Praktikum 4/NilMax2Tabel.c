@@ -59,5 +59,6 @@ int main(){
 		}
 	}
 	printf("%d", max_2);
+	free(T);
 	return 0;
 }
