@@ -72,5 +72,6 @@ int main(){
 	else{
 		printf("T1 dan T2 tidak simetris");
 	}
+	free(T1); free(T2);
 	return 0;
 }
