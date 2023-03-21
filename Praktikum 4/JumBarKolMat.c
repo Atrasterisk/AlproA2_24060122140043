@@ -74,6 +74,7 @@ int main(){
 		printf("Kolom ke-%d adalah %d", (j+1), totkol);
 		printf("\n");
 	}
+	free(A);
 	return 0;
 }
 
