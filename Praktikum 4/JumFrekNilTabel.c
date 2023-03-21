@@ -70,5 +70,6 @@ int main(){
 		}
 	}
 	printf("%d", tot);
+	free(T);
 	return 0;
 }
