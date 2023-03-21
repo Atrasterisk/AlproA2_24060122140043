@@ -66,5 +66,6 @@ int main(){
 			printf("%d, ", T[i]);
 		}
 	}
+	free(T);
 	return 0;
 }
